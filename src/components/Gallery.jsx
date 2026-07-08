@@ -28,7 +28,7 @@ export default function Gallery() {
         {images.map((image, index) => (
           <img
             key={index}
-            src={`/images/${image}`}
+            src={`${import.meta.env.BASE_URL}images/${image}`}
             alt=""
           />
         ))}
