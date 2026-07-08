@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="hero">
 
       <img
-        src={`${import.meta.env.BASE_URL}images/cover.jpg`}
+        src="/wedding/images/cover.jpg"
         alt="cover"
         className="hero-image"
       />
